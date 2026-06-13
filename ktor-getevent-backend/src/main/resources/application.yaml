@@ -1,0 +1,13 @@
+ktor:
+  deployment:
+    port: 8080
+    host: 0.0.0.0
+  application:
+    modules:
+      - MainKt.module
+
+jwt:
+  secret: "getevent-secret-change-in-production-32chars-min"
+  issuer: "getevent"
+  audience: "getevent-api"
+  realm: "GetEvent"

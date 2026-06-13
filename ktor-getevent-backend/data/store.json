@@ -1,0 +1,120 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "numeroInscription": "ADMIN001",
+            "nom": "Administrateur",
+            "niveau": "N/A",
+            "parcours": "N/A",
+            "numeroTel": 0,
+            "email": "admin@getevent.local",
+            "nomFacebook": "admin",
+            "role": "ADMIN",
+            "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        {
+            "id": 2,
+            "numeroInscription": "018-M1/TCO/2026",
+            "nom": "ANJARAFITIA Ariela",
+            "niveau": "M1",
+            "parcours": "IRC",
+            "numeroTel": 261389331153,
+            "email": "rojoariela@gmail.com",
+            "nomFacebook": "Ariela Fitia",
+            "role": "STUDENT",
+            "passwordHash": "7cfc729fdf9a748bb837f868e4246bb02ba6a581c3c0eaac6858b53cd7c41999"
+        },
+        {
+            "id": 3,
+            "numeroInscription": "123",
+            "nom": "Nomena",
+            "niveau": "L1",
+            "parcours": "STI",
+            "numeroTel": 340032784,
+            "email": "nomena@gmail.com",
+            "nomFacebook": "Nomena",
+            "role": "STUDENT",
+            "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        {
+            "id": 4,
+            "numeroInscription": "124",
+            "nom": "Nomena2",
+            "niveau": "L3",
+            "parcours": "IRC",
+            "numeroTel": 340032784,
+            "email": "nomena2@gmail.com",
+            "nomFacebook": "Nomena",
+            "role": "BOARD_MEMBER",
+            "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "nom": "Vontovorona",
+            "longitude": 12.0,
+            "latitude": 14.0,
+            "capacite": 50
+        }
+    ],
+    "events": [
+        {
+            "idEvenement": 1,
+            "nomEvenement": "Conference",
+            "dateEvenement": "2026-09-21",
+            "lieuId": 1,
+            "description": "Hello",
+            "estPrive": false,
+            "tarif": 100.0
+        },
+        {
+            "idEvenement": 2,
+            "nomEvenement": "Reception",
+            "dateEvenement": "2026-07-22",
+            "lieuId": 1,
+            "description": "Fete",
+            "estPrive": false,
+            "tarif": 1000000.0
+        }
+    ],
+    "reservations": [
+        {
+            "idReservation": 1,
+            "dateReservation": "2026-06-09T21:48:20.130754600Z",
+            "statut": "CONFIRMED",
+            "utilisateurId": 4,
+            "evenementId": 1
+        },
+        {
+            "idReservation": 2,
+            "dateReservation": "2026-06-09T21:48:33.756061300Z",
+            "statut": "CONFIRMED",
+            "utilisateurId": 4,
+            "evenementId": 2
+        }
+    ],
+    "transactions": [],
+    "tickets": [
+        {
+            "idTicket": 1,
+            "urlCode": "TICKET-0ddc5add-5c6c-4022-93e7-ff60f061664e",
+            "dateGeneration": "2026-06-09T21:48:20.147495800Z",
+            "estUtilise": true,
+            "reservationId": 1
+        },
+        {
+            "idTicket": 2,
+            "urlCode": "TICKET-471856a2-6d58-4129-9cfa-79b8b3053f7d",
+            "dateGeneration": "2026-06-09T21:48:33.757123600Z",
+            "estUtilise": false,
+            "reservationId": 2
+        }
+    ],
+    "nextUserId": 4,
+    "nextLocationId": 2,
+    "nextEventId": 3,
+    "nextReservationId": 3,
+    "nextTransactionId": 1,
+    "nextTicketId": 3
+}
