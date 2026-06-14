@@ -37,7 +37,7 @@ Une version exécutable du projet est disponible dans cette même repository.
 
 **Télécharger la Release :**
 
-[Voir les Releases](../../releases)
+[Voir les Releases (Fontend-only)](https://github.com/Fitia-Ariela/Get-event/releases/download/Frontend-only/app-debug.apk)
 
 ---
 
@@ -45,13 +45,13 @@ Une version exécutable du projet est disponible dans cette même repository.
 
 ### Inscription (Registration)
 
-![Registration](screenshots/register.png)
+![Registration](screenshots/registration.png)
 
 ### Connexion (Login)
 
 ![Login](screenshots/login.png)
 
-### Dashboard
+### Dashboard Admin
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -108,8 +108,8 @@ Une version exécutable du projet est disponible dans cette même repository.
 ### Administrator
 
 ```text
-Email: admin@getevent.com
-Password: Admin123*
+Email: admin@getevent.local
+Password: 123
 ```
 
 ### Administrator
