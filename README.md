@@ -112,13 +112,13 @@ Email: admin@getevent.local
 Password: 123
 ```
 
-### Administrator
+### Student
 ```text
-Email: board@getevent.com
-Password: Board123*
+Email: rojoariela@gmail.com
+Password: 123
 ```
-### Administrator
+### Board member
 ```text
-Email: board@getevent.com
-Password: Board123*
+Email: Lucas@gmail.com
+Password:123
 ```
